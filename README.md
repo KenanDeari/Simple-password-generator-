@@ -1,1 +1,3 @@
-# Simple-password-generator-
+Password Generator! 
+
+This project is a simple password generator. My approach to completing the task started with creating the appropriate variables & arrays to fit the requirements for the generator. You will see the application of "while" loops to force particular inputs for the user., "if" loops are present to assist in reading a block of code & accepting the input if the user would like the character in their password. "For" loops allowed for the looping of the user's input to create a password. The motivation for this project was my eagerness to learn & understand JavaScript; I learned a significant amount of information along the way that will assist in better equipping me for future needs. 

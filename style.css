@@ -5,9 +5,27 @@
 }
 h2 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 39px;
+  font-size: 40px;
   color: whitesmoke;
 }
+/* added css for first header */
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+  background-color: whitesmoke;
+  color: darkgrey;
+  border-radius: 8px;
+  margin: auto;
+  width: 550px;
+}
+/* custom css for placeholder */
+::placeholder {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+
+
+
 html,
 body,
 .wrapper {
@@ -16,6 +34,7 @@ body,
   padding: 0;
   background-image: url(https://i.pcmag.com/imagery/articles/04Uac9ZA9dH1zEKUiIv0nOu-7.fit_scale.size_2698x1517.v1569489914.jpg);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -38,8 +57,8 @@ header {
 }
 
 .card {
-  background-color: grey;
-  opacity: 1.2;
+  background-color: slategray;
+  opacity: 1.0;
   border-radius: 8px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;

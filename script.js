@@ -23,7 +23,7 @@ function createPw() {
 
   //while loop incase charCount = false (no input selected) it will keep repeating the prompt's. 
   while (charCount.length === 0) {
-    alert("Please select all the possilbe charecter type's you would like.");
+    alert("Please select all the possible character types you would like.");
     lower = confirm("Include lowercase letters in password?");
     upper = confirm("Include uppercase letters in password?");
     specialChar = confirm("Include special characters in password?");

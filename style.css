@@ -16,7 +16,7 @@ h1 {
   color: darkgrey;
   border-radius: 8px;
   margin: auto;
-  width: 550px;
+  width: auto;
 }
 /* custom css for placeholder */
 ::placeholder {

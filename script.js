@@ -46,7 +46,7 @@ function createPw() {
       charCount += options.number;
     }
     if (specialChar === true) {
-      charCount += options.special;
+      charCount += options.specialChar;
     }
 
   }
